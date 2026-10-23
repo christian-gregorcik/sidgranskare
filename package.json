@@ -1,0 +1,14 @@
+{
+  "name": "sidgranskare",
+  "version": "0.1.0",
+  "description": "Measures a public web page and reports the most serious findings, with the request guard a URL scanner needs.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src"],
+  "engines": { "node": ">=22.6" },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT"
+}
